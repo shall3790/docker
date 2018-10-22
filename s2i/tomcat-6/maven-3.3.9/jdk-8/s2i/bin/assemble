@@ -12,6 +12,8 @@ function restore_saved_artifacts() {
   fi
 }
 
+echo "running assemble step"
+
 # Source code provided to S2I is at ${HOME}
 LOCAL_SOURCE_DIR=${HOME}
 mkdir -p $LOCAL_SOURCE_DIR
